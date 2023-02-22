@@ -1,0 +1,12 @@
+
+
+body {
+    margin: 0;
+    background: #f9f9f9;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+}

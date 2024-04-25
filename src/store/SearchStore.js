@@ -14,11 +14,10 @@ export const useSearchStore = defineStore("searchStore", () => {
         const res = await fetch(`${url}${search}`)
         const data = await res.json()
         movies.value = data.results.filter((item)=> {
-            console.log(item.release_date.slice(0,4))
             if (item.release_date.slice(0,4) === year) {
                 return item
             } else {
-                console.log("ishlamayabdi")
+                // console.log("ishlamayabdi")
             }
         })
         if (movies.value.length === 0) {

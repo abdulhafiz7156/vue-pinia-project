@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+# Vue Pinia Project
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Vue Pinia Project is a web application built with Vue.js and Pinia for state management. It provides a simple yet powerful way to manage global application state.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **State Management**: Utilizes Pinia for efficient and scalable state management in Vue.js applications.
+- **Global State**: Easily share state across components without the need for complex setups.
+- **Modular Design**: Organize your state into modules for better organization and maintainability.
+- **Type Safety**: Benefit from type safety with TypeScript support in Pinia.
+
+## Demo
+
+Check out the live demo [here](https://vue-pinia-project-ten.vercel.app/).
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/vue-pinia-project.git
